@@ -1,0 +1,205 @@
+
+
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute;}
+
+
+#imgBG{
+    position:fixed;
+   left:50%;
+   top:50%; 
+   width:auto;
+   min-width:100%; 
+   height:auto;
+   min-height:100%; 
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:block
+}
+
+	
+.videoBox h2{position: absolute;top: 35%;width: 100%;text-align: center;color: #fff;font-family: 'Bangers', cursive;letter-spacing: 7px; font-size: 80px;
+  text-shadow: 0 1px 0 #453935, 0 2px 0 #38ff00, 0 3px 0 #ff1212, 0 5px 0;} 
+.down {
+  display: block;
+  font-size: 17px;
+  position: absolute;
+
+  margin-left: -126px;
+  left: 48%;
+  margin-left: -61px;
+  bottom: 20%;
+  animation: ani 1.2s infinite alternate;
+  transform: translateX(-50%);
+}
+
+@keyframes ani {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    color: #fff;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0.8;
+    color: #888;
+    font-family: serif;
+  }
+}
+
+.down::after {
+  content: "";
+  display: block;
+  width: 126px;
+  height: 110px;
+  margin: 20px auto 0;
+   background: url(../images/down.png) no-repeat center; 
+   background-size: cover 
+}
+
+#content {
+  width: 100%;
+  /* margin: 0 5%; */
+  /* height: 4933px; */
+  /* background: rgba(3, 3, 3, .7); */
+
+}
+#content h3{ font-size: 4rem;font-family: 'Bangers', cursive; color:#ffbc00;
+  text-align: center; margin-top: 10%; padding-top: 9%; letter-spacing: 3px;}
+
+
+    
+  #content h4{ font-size: 2rem;font-family: 'Bangers', cursive; color:#ffbc00;
+    text-align: center; margin-top: 10%; padding-top: 9%; letter-spacing: 3px;}
+
+  .clip{overflow: hidden}
+  .subTitle {
+      position: relative;
+      padding-top: 10px;
+      font-size: 1.4em;
+      font-family: 'Nunito Sans', sans-serif;
+      text-align: center;
+      color: #fff
+  }
+
+  .video{background: rgba(3, 3, 3, .7);}
+  
+  /* .subTitle:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background: yellow
+  } */
+  #new_video {
+    width: 100%;
+  }
+  .clip_part {
+      width:33%; float: left;
+      /* margin-bottom: 60px; */
+      margin-left: 1px;
+  }
+  
+  .clip_part .contentArea {
+      position: relative;
+      width: 96%;
+      margin: 30px auto
+  }
+  
+  .imgPart {
+      position: relative;
+      cursor: pointer;
+      margin-bottom: 30px
+  }
+  
+  .clip_part .contentArea .imgPart .popup-youtube>img {
+      width: 100%;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+     
+      
+  }
+  
+  .clip_part .contentArea p {
+      color: #fff;
+      text-align: justify;
+      font-family: 'Nunito Sans', sans-serif;
+      width: 90%;
+      margin-left: 6%;
+  }
+  
+  .clip_part .playBnt {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 110px;
+      height: 110px;
+      margin: -55px 0 0 -55px;
+      border-radius: 94px;
+      background: rgba(0,0,0,.6)
+  }
+  
+  .clip_part .imgPart:hover .playBnt {
+      background: rgba(255,0,0,.6)
+  }
+  
+  .clip_part .playBnt img {
+      position: relative;
+      width: auto;
+      top: 50%;
+      left: 50%;
+      margin: -32px 0 0 -20px    
+  }
+  
+  @media screen and (max-width:786px) {
+      
+      .clip_part {
+      width:auto; float:none;}
+      
+  }
+  
+  @media screen and (max-width:640px) {
+      .subTitle {
+          font-size: 1.5em
+      }
+  }
+  
+  @media screen and (max-width:480px) {
+      .clip_part .playBnt {
+          width: 95px;
+          height: 95px;
+          margin: -48px 0 0 -48px
+      }
+      .clip_part .contentArea {
+          width: auto
+      }
+  }
+/*-------------------------------------------------------------------*/
+
+@media screen and (max-width:1024px) {
+
+
+.clip_part{width: 45%;
+  padding-left: 3%;}
+  #content h4{color: #2e47c3;}
+  #new_video{width: 90%;}
+}
+
+@media screen and (max-width:787px) {
+  .video{background:#fff;}
+  .clip_part{width: 100%; padding-left: 5%;}
+  .clip_part .contentArea p{color: #333;}
+  #content h4{color: #2e47c3;}
+  .clip_part{width: 94%;}
+}
+
+@media screen and (max-width:640px){
+
+}
+
+@media screen and (max-width:480px) {
+	#wrap {min-width:320px;}
+}
