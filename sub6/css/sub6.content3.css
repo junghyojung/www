@@ -1,0 +1,30 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 260px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+
+
+#content .summary h2 {padding: 25px 0 10px;text-align: center;font-size: 26px;font-family: 'Nanum Gothic', sans-serif;font-weight: 600;position: relative;}
+#content .summary .summary{ text-align: center;font-size: 1.2rem;margin-top: 10px;margin-bottom: 31px; color: #2a9bcf;}
+
+#content{font-family:'Noto Sans KR';}
+#content .facebook h3{text-align: center;font-size:1.6rem;font-weight:600;padding-top: 10%;margin-bottom: 10%;color: blue;}
+#content .facebook p{text-align: center;}
+#content .facebook p strong{    font-weight: 600; color: #362c6c; font-size: 1.5rem;}
+#content .facebook .facebook_box{ width: 319.02px;margin: 0 auto;}
+#content .facebook p{line-height: 27px;margin-top: 4%; margin-bottom: 20%;text-align: justify;width: 90%; margin-left: 5%;font-size: 1.1rem;}
+
+#content .yotube h3{text-align: center;font-size:1.6rem;font-weight:600;padding-top: 13%;margin-bottom: 10%;color: red;}
+#content .yotube p{    text-align: center;margin-bottom: 6%;font-size: 1.1rem;}
+#content .bottom_2 {border: 2px solid #939393;font-size: 15px; display: block;padding: 8px;width: 130%;
+    width: 18px;text-align: center;color: #333;position: relative; top: -39px;font-weight: 500;}
+
+#content .youtube_box{margin-bottom: 21%;}  
+#content .facebook .bottom a{ width: 46%; margin: 0 auto;}
+#content .bottom_you a {width: 46%; margin: 0 auto;}
+#content .youtube_box video{width: 100%;}

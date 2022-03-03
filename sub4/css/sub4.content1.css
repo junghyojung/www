@@ -1,0 +1,33 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 260px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+
+.contet_area .research img{margin-left: 197px;}
+.contet_area .research h3{font-size: 40px;text-align: center;margin: 38px;}
+.contet_area .research .research_point{width: 800px;width: 800px;text-align: justify;margin: 0 auto;color: #666;line-height: 29px;}
+.contet_area .bottom{border: 1px solid #333;padding: 10px;position: relative;top: 49px; left: 481px;transition: all .5s;}
+.contet_area .bottom:hover{color: #094f9f;border: 1px solid #094f9f;transform: scale(1.1);}
+.contet_area h4{font-size: 35px;margin-top: 100px;border-top: 1px solid #ddd;padding-top: 60px;}
+.contet_area .field dl{margin-left: 175px;}
+
+.contet_area .field dt{font-size: 28px;}
+.contet_area .field .five{font-size: 27px;margin-top: -47px;color: #8da3d1;}
+.contet_area .field .tenbox{margin-top: 53px;}
+.contet_area .field .tenbox .ten{font-size: 27px;color: #8da3d1;}
+.contet_area .field dd{margin-top: 14px;}
+.contet_area .field dd .list1{padding-right: 10px; font-size: 19px;color:#666}
+.contet_area .tenbox dd{display: inline-block;font-size: 18px;margin-top: 23px; margin-right: 33px;color:#666}
+
+
+.contet_area .history_box h5{font-size: 32px;margin-top: 74px;padding-top: 35px;border-top: 2px solid #ddd;}
+.contet_area .history_box .toy dl dt{margin-top: -5px;font-size: 22px;position: relative;top: 39px;color:#8b9dcd;;}
+.contet_area .history_box .toy dl dd{margin-left: 104px;margin-top: 10px;} 
+.contet_area .history_box .history{margin-left: 202px;margin-bottom: 200px;}
+
+

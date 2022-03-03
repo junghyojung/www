@@ -1,0 +1,33 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family:sans-serif;}
+#content .title_area img{padding-bottom: 117px;display: block;margin: 0 auto;}
+#content .title_area p{font-family: sans-serif;font-size: 30px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+
+.contet_area .history{margin: 100px 0;}
+.contet_area ul{text-align:center;}.contet_area .tap .year_tap{position: relative;}
+.contet_area .tap .year_tap::before{content:"";position: absolute;top:0;left:0; width: 2000px;height: 1px;background: #ccc;
+    margin-left: -400px;}
+.contet_area .tap .year_tap .first_y1 a::before{content:"";background: #0058a3;}
+.contet_area .history dl{padding-top: 35px;}
+.contet_area .history dt{padding-bottom: 10px;color: #1860b9;}
+.contet_area .history dd{font-size: 18px;font-family: sans-serif;color: #666;}
+
+.contet_area .tap li a{position:relative;}
+.contet_area .tap li a::before{content:"";width: 20px;height: 20px;border-radius: 50%;background: #ccc;position: absolute;top: -40px;left: 50%; transition: all .5s ease;}
+.contet_area .tap li a:hover::before{content: "";background: #0058a3;border: 1px solid #0058a3;}
+.contet_area .tap li{width:250px; display: inline-block;font-size: 30px;color: #767676;font-family: sans-serif;padding-top: 30px; }
+.contet_area .year {text-align: center;}
+.contet_area .history h3{font-size: 40px; font-family: 나눔고딕; font-weight: bold;background: #56a1df;color: #fff;border-radius: 50%;width: 200px; height: 200px;box-sizing: border-box;
+    padding: 50px 0; margin:0 auto; }
+    .contet_area .history dt{font-size: 22px;font-weight: bold;color: #333;font-family: sans-serif;}
+
+.contet_area .historyrow::before{content: ''; width: 2px; height: 100%; top: -1px; left: 50%; margin-left: -1px;position: absolute; background: #0058a3;}
+.contet_area .historyrow{position:relative;padding-bottom: 50px;}
+.contet_area .historyrow dt{position:relative;}
+.contet_area .year_right dl{text-align: right;margin-right:620px;}
+.contet_area .year_left dl{text-align: left;margin-left:620px;}
+.contet_area .year_right dl dt::before{content:'';position:absolute;width:10px;height:10px;background:#ccc;top:50%;right:-25px;border-radius: 50%;}
+.contet_area .year_left dl dt::before{content:'';position:absolute;width:10px;height:10px;background:#ccc;top:50%;left:-25px;border-radius: 50%;}

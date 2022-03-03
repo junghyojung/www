@@ -1,0 +1,135 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-hyosungway</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_2.content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+
+    <? include "../common/sub_header.html" ?>
+
+    <div class="visual">
+        <img src="./common/images/summaryy.jpg" alt="비쥬얼메인">
+        <h3>회사소개</h3>
+        <P>A BOUT THE COMPANY</P>
+    </div>
+
+    <div class="sub_menu">
+        <ul class="menu">
+            <li class="subli"><a href="./sub1.html">회사개요</a></li>
+            <li class="current_subli"><a href="./sub1_2.html">hyosungway</a></li>
+            <li class="subli"><a href="./sub1_3.html">인사구성</a></li>
+            <li class="subli"><a href="./sub1_4.html">회사연혁</a></li>
+            <li class="subli"><a href="./sub1_5.html">글로벌사업</a></li>
+        </ul>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home&gt;회사소개&gt; <strong>hyosungway</strong></div>
+                <h2>hyosungway</h2>
+                <img src="./images/content1/bule.png" alt="표시선">
+                <p>“인류의 보다 나은 생활을 선도하는 가치체계”</p>
+            </div>
+            <div class="contet_area">
+
+                <div class="ourvelue">
+                    <dl class="glova">
+                        <dt class="our_1"><img src="./images/content2/value1.jpg" alt="효성"></dt>
+                        <dd><span>Hyosung Way</span>는 전세계 모든 효성인이 힘과
+                            의지를 하나로 모아 꿈을 현실로 만들어 나가기
+                            위해 만들어진 가치체계입니다.</dd>
+                    </dl>
+
+                    <dl class="star">
+                        <dt><img src="./images/content2/value2.jpg" alt="효성"></dt>
+                        <dd class="our_2"><span>Hyosung Way</span>의 실천을 통해 효성은 글로벌
+                            일류기업으로 도약하고 고객의 삶의 질 향상에
+                            기여하는 기업이 될 것입니다.</dd>
+                    </dl>
+
+                </div>
+
+                <div class="mission">
+
+
+                    <a><img src="./images/content2/misson.jpg"></a>
+                    <dl>
+
+                        <dt>“최고의 기술과 경영 역량을 바탕으로
+                            인류의 보다 나은 생활을 선도한다”</dt>
+
+                        <dd>효성의 존재이유는 ‘최고의 인재’들이 ‘최고의 기술’과
+                            ‘경영역량’을 발휘함으로써 고객가치를 극대화시킬 수
+                            있는 상품과 서비스를 제공하고, 나아가 인류의 삶의
+                            가치를 향상시키는것입니다.</dd>
+                    </dl>
+
+                </div>
+
+                <div class="action">
+                    <h4>핵심가치&amp;행동원칙</h4>
+                    <img src="images/content1/bule.png" alt="행동원칙바">
+                    <ul class="hyosung">
+                        <li class="hyo">
+                            <dl>
+                                <dt class="action_1">최고</dt>
+                                <dd>끊임없이 학습하여 어떠한 상황에서도 승리할 수 있는 경쟁력을 만든다</dd>
+                                <dd> 글로벌 마인드로 세계를 개척한다 </dd>
+                            </dl>
+                        </li>
+
+                        <li class="hyo">
+                            <dl>
+                                <dt class="action_2">혁신</dt>
+                                <dd>부가가치 없는 모든 일을 제거한다.</dd>
+                                <dd>긍정의 마인드로 새로운 가능성에 도전한다</dd>
+                            </dl>
+                        </li>
+
+                        <li class="hyo">
+                            <dl>
+                                <dt class="action_3">책임</dt>
+                                <dd>주인의식을 가지고 주도적으로 일을한다.</dd>
+                                <dd> 몇번이든 시도하여 악착같이 해낸다</dd>
+                            </dl>
+                        </li>
+
+                        <li class="hyo">
+                            </dl>
+                            <dt class="action_4">신뢰</dt>
+                            <dd>사실과 원칙에 입각하여 투명하고 공정하게 일한다</dd>
+                            <dd>서로 존중하고 협력하여 행복한 일터를 만든다</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <? include "../common/sub_footer.html" ?>
+
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family:sans-serif;}
+#content .title_area img{padding-bottom: 117px;display: block;margin: 0 auto;}
+#content .title_area p{font-family: sans-serif;font-size: 23px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+
+.contet_area h4{font-size: 30px; color: #4f72b3; font-weight:bold; font-family:나눔고딕;margin-bottom: 40px;}
+.contet_area dt{font-size:30px;font-family: sans-serif;font-weight: bold;}
+
+.contet_area dd{font-size:22px;font-family: sans-serif; font-weight: 500;}
+.contet_area .contet_area{overflow: hidden;position: relative;}
+
+.contet_area .chart dl{position: relative;left: 380px;bottom: 365px;border: 1px solid #ccc;
+    width: 800px;padding: 100px 50px 66px 20px;}
+
+.contet_area .chart_2 img{margin-top:-300px;}
+.contet_area .chart_2 .gray{float: right;}
+.contet_area .chart_2 dl{float: right;position: relative; bottom:361px;left: 51px;border: 1px solid #ccc;width: 800px;padding: 100px 50px 66px 20px;}
+.contet_area .chart_3 img{margin-top: 37px;}
+.contet_area .chart_3 dl{position: relative;bottom:361px;left:380px;border: 1px solid #ccc;width: 800px;padding: 100px 50px 66px 20px;}
+.contet_area .chart_3{margin-top: 20px;margin-bottom: -140px;}
+.contet_area .gray{color: #999;font-family: 돋움;font-size: 30px;font-weight: 400;position: relative;bottom: 35px;left: 100px;}
+ 
+
+.contet_area .e_name{text-align: right;color:#92e3e4;font-size: 25px;}
+.contet_area table tr{background-color:#a6d0f1;font-size: 20px;}
+.contet_area table{width: 100%;}
+.contet_area table td{background: #fff;text-align: center;font-size: 18px;}
+.contet_area table, th, td { border: 1px solid black;font-family: sans-serif;border-collapse: collapse; margin-bottom: 200px;padding: 10px;}
+.contet_area .chart_2 .tlgja{width: 570px; line-height: 30px; text-align: left;}

@@ -1,0 +1,173 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-hyosungway</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_5.content5.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?v=3.3&sensor=true"></script>
+    <script src="./js/google_map.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    
+    <div class="visual">
+        <img src="./common/images/summaryy.jpg" alt="비쥬얼메인">
+            <h3>회사소개</h3>
+            <p>A BOUT THE COMPANY</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul class="menu">
+                <li class="subli"><a href="./sub1.html">회사개요</a></li>
+                <li class="subli"><a href="./sub1_2.html">hyosungway</a></li>
+                <li class="subli"><a href="./sub1_3.html">인사구성</a></li>
+                <li class="subli"><a href="./sub1_4.html">회사연혁</a></li>
+                <li class="current_subli"><a href="./sub1_5.html">글로벌사업</a></li>
+            </ul>
+        </div>
+
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">home&gt;회사소개&gt; <strong>인사구성</strong></div>
+                <h2>글로벌사업</h2>
+                <img src="./images/content1/bule.png" alt="표시선">
+                <p>“세계속 효성은 더욱 빛나고 있습니다”</p>
+            </div>
+            <div class="contet_area">
+                <div class="koreamap">
+                    <div id="map_canvas" style="width:1200px;height:600px;margin-bottom: 50px;"></div>
+                    <h3>오시는 길</h3>
+                    <div class="location_wrap">
+                        <ul class="loaciton">
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    주소
+                                </div>
+                                <div class="loacation_right">
+                                    서울특별시 마포구 공덕동 450
+                                </div>
+                            </li>
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    전화번호
+                                </div>
+                                <div class="loacation_right">
+                                    02-707-7000
+                                </div>
+                            </li>
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    FAX
+                                </div>
+                                <div class="loacation_right">
+                                    02-707-7799
+                                </div>
+                            </li>
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    찾아오시는 길
+                                </div>
+                                <div class="loacation_right">
+                                    <p class="loction_tit">대중교통</p>
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt>버스이용시</dt>
+                                                <dd>600번 160번 아현동 주민센터 하차</dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>지하철이용시</dt>
+                                                <dd>5호선 6호선 공덕역 하차</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="glovalphoto">
+                    <img src="./images/content5/gloval_03.png" alt="세계위치">
+                </div>
+                    <h3>국제사업</h3>
+                    <div class="location_wrap">
+                        <ul class="loaciton">
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    [CHINA]<br> JIAXING
+                                </div>
+                                <div class="loacation_right">
+                                    주소.1888, Dongfanglu, Jiaxing Economic Development Zone, Jiaxing, Zhejiang, China<br>
+                                    Tel : 86-573-8222-8307 Fax : 86-573-8222-8305
+                                </div>
+                            </li>
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    [GERMANY] FRANKFURT
+                                </div>
+                                <div class="loacation_right">
+                                    Merganthalerallee 15-21, 65760 Eschborn, Germany<br>
+                                    Tel : +49-(0)6196-64024-10
+                                </div>
+                            </li>
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    [SOUTH AFRICA] DURBAN
+                                </div>
+                                <div class="loacation_right">
+                                    19 Kelly Road, Hammarsdale, 3700, Kwazulu Natal, South Africabr<br>
+                                    Tel : 27-317-361-016
+                                </div>
+                            </li>
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    [U.S.A] Hyosung Holdings U.S.A., Inc.
+                                </div>
+                                <div class="loacation_right">
+                                    15801 Brixham Hill Avenue, Suite 575 Charlotte, NC 28277, U.S.A.<br>
+                                    Tel : 1-704-790-6110 Fax : 1-704-790-6109
+                                </div>
+                            </li>
+                            <li class="location_list">
+                                <div class="loacation_left">
+                                    [BRAZIL]<br>
+                                    SANPAULO
+                                </div>
+                                <div class="loacation_right">
+                                    Av. Eng. Luis Carlos Berrini, 1297 Conj 142, Brooklin, Edificio Sudameris, Sao
+                                    Paulo, Brasil<br>
+                                    Tel : 55-11-5185-4200
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </article>
+
+        <? include "../common/sub_footer.html" ?>
+    
+</body>
+
+</html>

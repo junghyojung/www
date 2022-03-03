@@ -1,0 +1,25 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 260px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+.contet_area .technology_main img{float: left;margin-left: 50px;margin-bottom: 164px;
+    box-shadow: 5px 5px 5px 2px #ccc;}
+.contet_area .technology_main h3{float: left;margin-top: 14px;font-size: 40px;margin-bottom: 50px;margin-left: 60px;}
+.contet_area .technology_main p{width: 500px;float: left;line-height: 34px;margin-left: 60px;line-height: 41px;}
+
+.contet_area .technology_list{clear: both;}
+.contet_area .technology_list h3{clear: both;font-size: 35px;margin-top: 100px;margin-bottom: 80px;}
+.contet_area .technology_list .circle{    display: inline-block;width: 220px;height: 220px;border: 4px solid #075483; overflow: hidden;border-radius: 100%; margin-left: 130px;font-size: 22px;font-weight: 600;box-shadow: 2px 5px 5px 2px #ccccccb3;}
+.contet_area .technology_list .circle .circle_P{text-align: center;padding-top: 84px;}
+.contet_area .technology_list .circle .circle_pp{text-align: center;padding-top: 88px;}
+
+.contet_area .technology_history{clear: both;padding-top: 34px;border-top: 2px solid #ddd; margin-top: 132px; margin-bottom: 180px;}
+.contet_area .technology_history h4{font-size: 30px;}
+
+.contet_area .technology_history dt{font-size: 20px;color: #008fd3;margin-top: 26px;margin-bottom: 13px;position: relative; top: 46px;}
+.contet_area .technology_history dd{line-height: 29px;position: relative;top: 0px;left: 120px;color: #666;}

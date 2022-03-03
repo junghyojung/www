@@ -1,0 +1,47 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 260px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+.contet_area .appraisal_main img{margin-left: 200px;}
+.contet_area .appraisal_main h3{font-size: 40px;margin-top: 50px;text-align: center;}
+
+
+.contet_area .appraisal{margin-top: 200px;}
+.contet_area .appraisal_box h4{font-size: 35px;margin-bottom: 100px;margin-top: 300px;}
+.contet_area .appraisal_box .appraisal{height: 750px;}
+.contet_area .appraisal_box .appraisal li{width: 500px;}
+.contet_area .appraisal_box .appraisal .left_box{float: left;}
+.contet_area .appraisal_box .appraisal .right_box{float: left;margin-left: 160px;margin-bottom: 44px;}
+.contet_area .appraisal_box .appraisal li img{margin-left: 120px;}
+.contet_area .appraisal_box .appraisal dl dt{font-size: 25px;text-align: center;margin-top: 20px;font-weight: 400;color: #1349ab;}
+.contet_area .appraisal_box .appraisal dl dd{text-align: justify;color: #666;font-size: 19px;line-height: 34px;margin-top: 20px;}
+
+.contet_area .reward_box{clear: both;}
+.contet_area .reward_box h4{font-size: 35px;margin-bottom: 60px;padding-top: 101px;color:#fff;}
+.contet_area .reward_box dl{width: 300px;}
+.contet_area .reward_box .reward_1{float:left;border-right: 1px solid #fff;padding-right: 85px;}
+.contet_area .reward_box .reward_2{ float: left;margin-left: 90px;}
+.contet_area .reward_box .reward_3{position: relative;top: 70px;}
+.contet_area .reward_box dt{font-size: 21px;color: #d3e3ff;font-weight: 600; margin-top: 16px;}
+.contet_area .reward_box dt::before{content: '';display: inline-block;width: 4px;height:4px;background: #fff;border-radius: 500px;}
+.contet_area .reward_box dd{color: #fff;margin-top: 25px;padding-left: 9px;line-height: 34px;}
+.contet_area table, th, td { border: 1px solid #fff; border-collapse: collapse;padding:15px }
+.contet_area table{margin-top: 20px; position: relative;top: 92px;}
+.contet_area table th{background: #404040;color: #fff;font-weight: 500;}
+.contet_area table td{line-height: 31px;color: #fff;}
+.contet_area .reward_box::before{content: '';position: absolute; display: block; width: 2000px; height: 800px;background: #404040;z-index: -1000;left:0;}
+
+.contet_area .welfare{clear: both;overflow: hidden;height: 1300px;}
+
+.contet_area .welfare h4{font-size: 35px;color: #666;padding-top:220px;}
+.contet_area .welfare li{float: left;margin-left: 70px;margin-bottom: 60px;}
+.contet_area .welfare li p{text-align: center;margin-top: 20px;text-align: center;margin-top: 20px;color: #666;}
+.contet_area .welfare li img {border-radius: 10px; transition: transform .5s; }
+.contet_area .welfare li img:hover{   transform: scale(1.1);}
+
+    

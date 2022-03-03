@@ -1,0 +1,23 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family:sans-serif;}
+#content .title_area img{padding-bottom: 117px;display: block;margin: 0 auto;}
+#content .title_area p{font-family: sans-serif;font-size: 23px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+
+.contet_area h3{font-size: 30px;}
+
+
+.contet_area h5{font-size: 35px;font-weight: bold;font-family: 나눔고딕;margin-top: 50px;}
+.contet_area .loaciton{border-top:3px solid #222;margin-top: 20px;margin-bottom: 100px;}
+.contet_area .location_list{border-bottom: 1px solid #ddd;padding: 50px 0 50px 30px;overflow:hidden;line-height: 30px;}
+.contet_area .loacation_left{width: 20%;float: left;font-size: 22px;font-weight: bold; color: #0a4678;}
+.contet_area .loacation_right{width: 80%;float: right;font-size: 16px;}
+.contet_area .loction_tit{width: 150px;font-size:18px;padding:0 20px; height:40px; line-height: 40px; border:1px solid #ddd;margin-bottom:20px;text-align: center;font-weight: bold;font-family: 나눔고딕;}
+.contet_area dt{padding-left: 12px;font-size:18px;position: relative;font-weight: 600; font-family: sans-serif;color: #333;}
+.contet_area dt::before{content: '';position: absolute;top:8px;left:0;background:#999;width:4px;height:4px;}
+.contet_area dd{position:relative; padding-left: 25px;font-family: sans-serif;padding-bottom: 30px;color: #666;}
+.contet_area dd::before{content: '';position: absolute;top:8px;left:10px;width:10px;height:1px;background: #ddd;}
+.contet_area .glovalphoto img{display:block; margin: 0 auto;width: 1200px;}
+

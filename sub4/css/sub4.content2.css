@@ -1,0 +1,37 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 260px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+.contet_area .heavymain img{margin-left: 103px;}
+.contet_area .heavymain h3{font-size: 40px;float: left;margin-left: 99px;margin-top: 63px;}
+.contet_area .heavymain p{font-size: 18px;width: 600px;float: left;margin-left: 72px;line-height: 40px;margin-top: 84px;margin-bottom: 100px;}
+
+.contet_area .heavy{clear: both;padding-top: 50px;}
+.contet_area .heavy h4{font-size: 35px; margin-bottom: 76px;}
+.contet_area .heavy .reserch_box{margin-top: 40px; margin-left: 158px;}
+
+
+.contet_area .heavy dl{width: 300px;height: 201px;;float: left;background: #f3f3f3;}
+.contet_area .heavy dt{text-align: center;padding-top: 30px; color: #0b8797;
+    font-weight: 700;
+}
+.contet_area .heavy dd{text-align: center;padding: 20px;line-height: 39px;}
+.contet_area .heavy #second3{margin-top: 1px;}
+/* .contet_area .heavy .second{width: 300px;height: 120px;border:1px solid red;float: left;} */
+
+.contet_area .heavy #second{background: #f7f7f7;color: #333;}
+.contet_area .heavy #second2{background: #f7f7f7;;color: #333;}
+.contet_area .heavy #second4{background: #f7f7f7;;color: #333;}
+
+.contet_area .heavy_history{clear:both;}
+.contet_area .heavy_history h5{font-size:30px ;padding-top: 250px;margin-bottom: 60px;}
+
+.contet_area .heavy_history li{margin-bottom: 152px;}
+.contet_area .heavy_history dl{padding-top: 20px;}
+.contet_area .heavy_history dt{padding-bottom: 21px;font-size: 20px;font-weight: 600; color: #276091;}
+.contet_area .heavy_history dd{line-height: 34px;color: #666; position: relative;top: -52px;left: 116px;}

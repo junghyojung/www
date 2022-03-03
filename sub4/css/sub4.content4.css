@@ -1,0 +1,34 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 260px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+.contet_area .Tire img{margin:0 195px 43px;}
+.contet_area .Tire h3{font-size: 40px;text-align: center;margin: 0 auto;margin-bottom: 40px;}
+.contet_area .Tire p{font-size: 18px;color: #666;width: 864px;text-align: justify;margin: 0 auto;line-height: 33px;margin-top: 24px;}
+
+.contet_area .kang{ position: relative;top:343px;color: #fff;z-index: 5;margin-top:87px;}
+.contet_area .kang h4{font-size: 37px;position: absolute;margin-top: -100px;}
+.contet_area .kangsung {width: 2000px;position: relative; top: 0px; left: 50%;margin: 0 0 100px -1000px;background: url(../images/content4/backback.jpg)center center no-repeat;    background-attachment: fixed;padding: 100px 0;height: 300px;}
+.contet_area .fofofo{position: absolute;top: 1px;}
+.contet_area .kang .reserch_list .list{margin-top: 22px;font-size: 23px;display: inline-block;margin-right: 31px;}
+.contet_area .kang .reserch_list .list::before{
+content: '';
+position: absolute;
+left: 30px;
+top: 12px;
+display: inline-block;
+width: 3px;
+height: 3px;
+background: #333;
+border-radius: 500px;}
+.contet_area .kang_history {margin-bottom: 180px;}
+.contet_area .kang_history h5{font-size: 35px;margin-bottom: 99px;}
+.contet_area .kang_history ul li dl{margin-top: 20px;}
+.contet_area .kang_history dt{margin-top: 20px; margin-bottom: 20px;color: #6a84cd;font-weight: 600;}
+.contet_area .kang_history dd{position: relative;top: -43px;left: 82px;}
+

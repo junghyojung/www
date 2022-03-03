@@ -1,0 +1,46 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 20px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+.contet_area{font-family: sans-serif;}
+
+
+.contet_area .tissu img{width: 1000px;height: 350px;margin-left: 100px;box-shadow:-1px 6px 14px 1px rgb(204 204 204);}
+.contet_area .tissu .number{font-size: 55px;font-weight: bold; font-family: 나눔고딕;text-align: center; margin: -53px -273px 68px 0px; color: #000;}
+.contet_area .tissu dd{font-size: 20px;width: 1000px;
+    font-family: sans-serif;font-weight: 500;margin: 0 auto;margin-bottom: 100px;background:#e7feff;padding: 50px;line-height: 35px; margin-left: 53px;}
+
+.contet_area .tnc_bottom { border: 1px solid #333;font-size: 15px;padding: 5px;color: #666;margin-bottom: 15px;
+position: relative;top: 52px;}
+.contet_area .tnc_bottom_2{border: 1px solid #333;font-size: 15px;padding: 5px;color: #666;margin-bottom: 15px;   
+    position: relative;top: -76px;}
+.contet_area .tnc_bottom:hover {color: rgb(8, 67, 122);}
+.contet_area .tnc_bottom_2:hover{color: rgb(8, 67, 122);}
+.contet_area .tnc ul li img{float: right;display: block;margin: 100px 0;}
+.contet_area .tnc li h3 {font-size: 34px;font-family: sans-serif; color: #333;padding: 15px 5px;border-bottom:3px solid #094f9f ;width:605px;
+}
+.contet_area h4{ display: block;font-size: 25px;}
+.contet_area dl{width: 600px;padding-top: 20px;}
+.contet_area dl dt{font-size: 22px;}
+.contet_area dl dd{font-size: 16px;padding-top: 20px;line-height: 30px;text-align: justify;}
+.contet_area .sapn_texs{width: 1200px;}
+.contet_area .sapn_texs ul li img{height: 400px;float:right;}
+.contet_area .sapn_texs {overflow: hidden;text-align: justify;}
+.contet_area .sapn_texs h4 {position: relative;top: 141px;width: 614px;padding: 5px; background:#2a4a6a;color: #fff;font-size: 25px;}
+.contet_area .sapn_texs dl {margin-top: 200px;}  
+.contet_area .sapn_texs .nylon{margin-top: 111px;text-align: justify;}
+.contet_area .sapn_texs .poly{margin-top: 130px;}
+.contet_area .sapn_texs .poly_1 h4 {position: relative;top: 119px;}
+.contet_area .sapn_texs .nylon_1 h4{position: relative;top: 119px;}
+.contet_area .sapn_texs .nylon_1 dt{margin-top: 19px;margin-bottom: 50px;}
+.contet_area .poly_1 {margin-bottom: 200px;text-align: justify;}
+.contet_area .dex dl {margin-top: 156px;}
+.contet_area .nylon_1 dd{margin-top: -57px;width: 600px; margin-bottom: -7px;}
+.contet_area .poly_1 img{margin-top: 118px;}
+.contet_area .nylon_1 img{margin-top: 119px;}
+.contet_area .dex img{margin-top: 141px;}

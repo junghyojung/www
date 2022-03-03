@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다음카카오맵</title>
+    
+    <script type src="//dapi.kakao.com/v2/maps/sdk.js?appkey=720d446acc36270d3dfd91da1e24971b"></script>
+    <script src="./js/map1.js"></script>
+
+
+	</script>
+</head>
+<body>
+    <div class="map_kakao">
+        <h3>찾아오시는길</h3>
+        <div id="map_kakao" style="width:1000px;height:450px;"></div>
+
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=발급받은 APP KEY를 넣으시면 됩니다."></script>
+	<script>
+		var container = document.getElementById('map_kakao');
+		var options = {
+			center: new kakao.maps.LatLng(37.545687, 126.951612),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+        
+        
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 20px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+.contet_area{font-family: sans-serif;height: 2594px;}
+
+.main img{width: 1000px; height: 350px;margin-left: 134px;}
+.contet_area .main .number{font-size: 55px;font-weight: bold;font-family:sans-serif;text-align: center;margin: -43px 273px 46px 426px;;color: #000;}
+.contet_area .main dd{font-size: 20px;width: 1000px;padding: 50px;font-family: sans-serif;font-weight: 500;margin: 0 auto;margin-bottom: 100px;
+          background: #f4f4f4;margin:50px;line-height: 35px;margin-left: 69px;margin-bottom: 199px;}
+
+.contet_area.advaned{box-shadow: 3px 3px 10px #ccc;}
+.contet_area .advaned .advaned_img{float:right;margin-top:130px;width: 550px;}
+.contet_area h3{font-size:34px ;font-family:'Nanum Gothic', sans-serif;margin-left: 15px;margin-bottom: 20px;  border-bottom: 3px solid #2f2f74;width: 197px;line-height: 60px;}        
+.contet_area dl{width: 500px;}
+.contet_area dt{font-size: 21px;color: #327cbd;}
+.contet_area .point{font-size: 19px;line-height: 30px;color: #327cbd;}
+.contet_area dd{color: #666;margin-top: 30px;font-size: 18px;margin-bottom: 30px;text-align: justify; line-height: 30px;}
+.advaned_bottom{margin-top: 30px;;color: #666;margin-left: 15px;border: 1px solid #000;padding: 10px;}
+.contet_area .advaned_bottom:hover{color:#525cd5;}
+
+.contet_area .polye{margin-top: 80px;margin-bottom: 150px;box-shadow: 3px 3px 10px #ccc}
+.contet_area .polye .poly_img{float: right;border-radius: 5%}
+.contet_area .polye .compony_box2{padding-top: 77px;height: 325px;background: #f1f1f1;}
+.contet_area .compony_box2 h4 strong{font-size: 28px;color:#333 ;padding-left: 15px;}
+.contet_area dl{padding-left: 15px;}
+.contet_area dt{margin-top: 20px;}
+
+
+.contet_area .tansome{height: 400px;background:#f1f1f1 ;margin-top: 30px;box-shadow: 3px 3px 10px #ccc;}
+.contet_area h4 strong{text-align: justify;padding-left: 15px; font-size: 28px;color:#333 }
+.contet_area h4{font-weight: 400;}
+.contet_area .tansome img{float: left;border-radius: 5%}
+.contet_area .compony_box3{width: 500px;float: right;padding-right: 42px; padding-top: 62px;}
+
+
+
+
+.contet_area .compony_box4 h4 strong{padding-left: 15px; font-size: 28px;color:#333 }
+.contet_area .tire_img{height: 400px;float: right;border-radius: 5%;margin-bottom: 130px;transition: all .3s ease-in-out;}
+.contet_area .tire_box{margin-top:120px;height: 400px;}
+.contet_area .compony_box4{width: 600px;height: 310px;padding-top: 91px;background:#f1f1f1;}
+.contet_area .tire{margin-bottom: 100px;box-shadow: 3px 3px 10px #ccc;transition: all .4s ease-in-out;}
+.contet_area .tire{transform: scale(1.1);}

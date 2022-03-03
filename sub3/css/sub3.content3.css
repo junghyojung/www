@@ -1,0 +1,27 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 200px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+/* .contet_area .ethical_main h3{font-size: 30px;} */
+
+.contet_area dd{color: #666;}
+.contet_area .ethical_list{text-align: justify;}
+.contet_area .all_ethical_list h3{    font-size: 30px;margin-bottom: 22px;padding-top: 41px;}
+
+.contet_area .all_ethical_list dt{font-size: 18px;margin-top: 15px;margin-bottom: 15px;}
+.contet_area .all_ethical_list dd{margin-bottom: 10px; }
+.contet_area .all_ethical_list .list_2{width: 800px;line-height: 34px;}
+.contet_area .ethical_list h4{font-size: 20px;color: #3c4a74;margin-top: 48px;}
+.contet_area .ethical_list::before{background: #ddd;}
+
+.contet_area .ethics_list dt{font-size: 18px;margin-top: 15px;margin-bottom: 15px;color: #07396c;font-weight: 500;
+}
+.contet_area .ethics_list dd{margin-bottom: 16px;margin-top: 5px;}
+.contet_area .back img{width: 2000px;height: 450px; position: relative;left: 50%; margin-left: -1000px;margin-top: 50px;}
+
+.contet_area .ethical_list{margin-bottom: 200px;}

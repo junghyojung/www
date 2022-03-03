@@ -1,0 +1,18 @@
+/* sub1 공통- 비주얼/ 서브네비/타이틀영역 */
+
+
+
+#headerArea h1 {float: left;margin-top:-5px; width: 170px;height: 69px;background:url(../images/kologo.png) no-repeat ;}
+.visual{width: 2000px; margin-top: 121px; position: relative; left: 50%; margin-left: -1000px; top: 0;}
+
+.visual h3{position: absolute; text-align: center; font-size: 40px;left:10px;top:150px;width: 100%;color:#fff;font-weight: 400;}
+.visual p{position: absolute;text-align: center; font-size:23px;left:10px;top:210px;width: 100%;color:#fff;}
+.sub_menu{width:1200px; margin: 0 auto;position: relative;top:-73px;
+        margin-bottom:-73px}
+        .sub_menu .menu{overflow: hidden;width: 1000px;margin: 0 auto;} 
+        .sub_menu li{float: left;width: 20%;} 
+        .sub_menu .title_1{margin-left:100px ;}
+        .sub_menu li a{display: block;font-size:20px;height: 30px;background:rgb(51,51,51,51);padding: 25px 40px;color:#fff;text-align: center;margin-top: 20px;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
+.sub_menu .subli :hover{background:#094f9f;color: #fff;font-size: 20px;font-family:'Noto Sans KR', sans-serif;}
+.sub_menu .current_subli a{background:#094f9f; color: #fff;font-size: 20px;font-family:'Noto Sans KR', sans-serif; }
+

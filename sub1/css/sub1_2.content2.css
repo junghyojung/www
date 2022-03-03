@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;500;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 23px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+
+.contet_area .ourvelue{overflow: hidden;margin-bottom:150px;}
+.contet_area .ourvelue .glova {float: left;margin-left: 165px;}
+.contet_area .ourvelue .glova dd{padding-left: 20px;margin-left: -80px;}
+.contet_area .star .our_2{margin-right: 20px; }
+.contet_area .ourvelue dd {text-align: justify;width: 345px;font-size: 18px;font-family: sans-serif;font-weight:500;padding-right:50px;line-height: 35px;}
+.contet_area .ourvelue dt{margin-bottom: 40px;}
+.contet_area .ourvelue .star{float:right;margin-right: 110px;}
+.contet_area .star img{margin-left:60px}
+.contet_area .ourvelue span{font-size: 21px;color:#83aed2;font-weight: bold;}
+
+.mission {color: #333;font-family: sans-serif;background:#fbfbfb;}
+.mission a{margin-left: 10px;overflow: hidden;}
+.mission img{box-shadow:9px 8px 5px 2px rgb(204 204 204);}
+.mission dl{float:right;width: 600px;}
+.mission  dt{font-size: 30px; font-weight: 500;text-align: justify;width:510px;margin-top: 60px;margin-bottom: 20px;margin-right:50px;}
+.mission  dd{font-size:17px; font-weight: 400;text-align: justify;width:392px;line-height: 28px;margin-left: 40px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #5c5c5c;}
+
+.action{position: relative;}
+.action img{position: absolute;top:80px;left:530px;}
+.action h4{font-size: 30px;padding: 20px; font-weight: 700;text-align: center;margin-top:100px;margin-bottom:126px;font-family:나눔고딕;color:#333;background: #e1f6ff;}
+.action .hyo dt{font-size: 40px;font-weight: bold; font-family: sans-serif;width: 223px;height: 220px;
+    border-radius: 50%; text-align:center; line-height:220px;color: #f9f9f9;}
+.action  .hyo {width:25%;float:left;margin-bottom: 50px;}
+.action  li:nth-child(1) dt{border:2px solid #e907dc; background:#e907dc;box-shadow:3px 3px 8px 3px rgb(204 204 204);}
+.action  li:nth-child(2) dt{border:2px solid #ff8401;background:#ff8401;box-shadow:3px 3px 8px 3px rgb(204 204 204);}
+.action  li:nth-child(3) dt{border:2px solid #2678f3;background:#2678f3;box-shadow:3px 3px 8px 3px rgb(204 204 204);}
+.action  li:nth-child(4) dt{border:2px solid #00a500;background:#00a500;box-shadow:3px 3px 8px 3px rgb(204 204 204);}
+
+.action .hyosung dd {font-size: 16px;font-family: 나눔;font-weight: 540; text-align: justify; width: 210px;margin-top: 30px;background: #f0f0f0;
+                     padding: 15px;height: 63px}

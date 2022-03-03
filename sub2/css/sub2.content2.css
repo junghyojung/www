@@ -1,0 +1,44 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 20px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+.contet_area{font-family: sans-serif;}
+
+.contet_area .radius{transition: all .5s ease-in-out;opacity: 0.8;}
+.contet_area .radius:hover{transform: scale(1.1);opacity: 1;}
+
+ .main img{width: 1000px; height: 430px;margin-left: 134px;}
+.contet_area .main dt{font-size: 55px;font-weight: bold;font-family:sans-serif;text-align: center;margin: -43px 273px 46px 0px;;color: #000;}
+.contet_area .main dd{font-size: 20px;width: 1000px;padding: 50px;font-family: sans-serif;font-weight: 500;margin: 0 auto;margin-bottom: 100px;
+                    background: #ceffa2;margin:50px;line-height: 35px;margin-left: 99px;margin-bottom: 199px;}
+.contet_area h4{font-size: 18px;width:614px;padding:50px;font-weight: 400;padding: 20px 0 21px 5px;}
+.rigth .song{margin-left:-55px;position: relative;top: 58px;}
+.contet_area .bottom{color: #666;border: 1px solid #000;padding: 10px;}
+.contet_area .bottom:hover{color:#525cd5;}
+.contet_area h4 strong{font-size: 25px;color:#333 ;}
+.contet_area .left{color: #333;}
+.left h3{font-size: 34px;margin-bottom: 20px;}
+.left dl{width:600px;font-family: sans-serif;}
+.rigth{width: 1200px;}
+.left .tnc{width: 344px;float: right;margin: 98px 110px 1px 4px;}
+.rigth dl{width:600px;height: 300px;font-family: sans-serif;margin-left: -46px;}
+.left dd{font-size: 16px;line-height: 30px;color: #666;text-align: justify;width: 500px;margin-top: 74px;margin-bottom: 49px;margin-top: 32px;}
+.rigth dd{font-size: 16px;line-height: 30px;color: #666;text-align: justify;width: 500px;margin-top: 39px;}
+.left dt{font-size:18px;color:#327cbd;}
+.left img{float: left;}
+.rigth dt{font-size: 18px;margin-top:56px;color:#327cbd;}
+.rigth ul{width: 1200px;}
+.rigth img{float: right;margin-bottom: 200px;}
+.rigth{margin: 50px;}
+.rigth li{margin-top:80px;}
+.left .tem{ float: right;position: relative;top: -310px;left:63px;}
+.left .creora{ position: relative;top: -239px;left: 650px;}
+.left .victo{height: 500px;}
+.rigth .renewable{margin-top: -108px;}
+.renewable h4{margin-left:-52px;position: relative;top: 105px;}
+.renewable.energy{margin-top: -36px;}
+.renewable dt{margin-top: 109px;}
+.radius{border-radius: 18% 0% 0%;}

@@ -1,0 +1,379 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>효성그룹</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./hyologo_icon.ico">
+
+
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="common/js/jquery-1.12.4.min.js"></script>
+        <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+        <script src="common/js/prefixfree.min.js"></script>
+        <script src="./mainjs/mainpopup.js"></script>
+        <script src="./mainjs/move.js"></script>
+        <script src="./mainjs/main.js"></script>
+
+
+</head>
+
+<body>
+    <? include "./common/main_header.html" ?>
+
+    <div class="visual">
+        <div class="gallery">
+            <ul>
+                <li class="link1"><a href="#"><img src="./images/vi_3.jpg" alt=''>
+                        <span>"고객과 함께 더 가까이"<br>
+                            <strong>여러분 곁에는 효성이 있습니다</strong></span></a></li>
+                <li class="link2"><a href="#"><img src="./images/visual.jpg" alt=''>
+                        <span>"1개 지주회사 4개 사업회사"<br>
+                            <strong>글로벌 초일류기업으로 지속 발전 하고 있습니다</strong></span></a></li>
+                <li class="link3"><a href="#"><img src="./images/vi_10.jpg" alt=''>
+                        <span>"GLOVAL NETWORK"<br>
+                            <strong>세계 속에서 효성은 더욱 빛나는 중입니다</strong></span></a></li>
+                <li class="link4"><a href="#"><img src="./images/vi_2.jpg" alt=''>
+                        <span>"고객과 함께 더 가까이"<br>
+                            <strong>여러분 곁에는 효성이 있습니다</strong></span></a></li>
+                <li class="link5"><a href="#"><img src="./images/visual_6.jpg" alt=''></a></li>
+
+
+            </ul>
+        </div>
+        <div class="dock">
+            <span class="mbutton  btn1"></span>
+            <span class="mbutton  btn2"></span>
+            <span class="mbutton  btn3"></span>
+            <span class="mbutton  btn4"></span>
+            <span class="mbutton  btn5"></span>
+            <span class="ps"></span>
+        </div>
+
+
+
+
+    </div>
+    <article id="content">
+        <h2 class="hidden">본문콘텐츠영역</h2>
+
+        <div class="business">
+            <h3>사업분야</h3>
+            <p>21세기 첨단문화 효성이 창조해 나가겠습니다</p>
+            <div class="business_wrep">
+                <div class="businessleft">
+                    <ul class="tab">
+                        <li id="select1" class="select"><a id="alink1" class="alink" href="#">섬유/무역</a></li>
+                        <li id="select2" class="select"><a id="alink2" class="alink" href="#">중공업건설</a></li>
+                        <li id="select3" class="select"><a id="alink3" class="alink" href="#">산업자재</a></li>
+                        <li id="select4" class="select"><a id="alink4" class="alink" href="#">화학</a></li>
+                    </ul>
+                </div>
+                <div class="business_right">
+
+                    <div id="business_img1" class="business_img"><img src="images/business_1-1.jpg" alt="business1">
+                    </div>
+                    <div id="business_img2" class="business_img"><img src="images/business1_2.jpg" alt="business1">
+                    </div>
+                    <div id="business_img3" class="business_img"><img src="images/busness1_3.jpg" alt="business1"></div>
+                    <div id="business_img4" class="business_img"><img src="images/business_1-4.jpg" alt="business1">
+                    </div>
+
+
+
+
+                    <div id="tab1" class="business_text">
+
+                        <dl>
+                            <dt>섬유무역</dt>
+                            <dd class="company">효성 티앤씨</dd>
+                            <dd>효성티앤씨㈜는 Global No.1 스판덱스 브랜드 '크레오라'를 비롯,
+                                나일론, 폴리에스터 원사와 직물, 염색 가공제품을 생산·공급을 통해
+                                Global 섬유업계를 리드하는 섬유 종합메이커임과 동시에
+                                철강·화학분야를 중심으로 유통과 물류를 통해 전 세계 기업과 소비자를 연결시키는 무역 부문으로 사업을 이루고 있습니다.</dd>
+                        </dl>
+
+                        <a href="./sub2/sub2_1.html">+더보기</a>
+
+
+                    </div>
+
+                    <div id="tab2" class="business_text">
+
+                        <dl>
+                            <dt>중공업건설</dt>
+                            <dd class="company">효성 중공업</dd>
+                            <dd>효성중공업㈜은 산업 에너지의 핵심인 중전기 분야에서
+                                세계 최고 수준의 기술력을 보유하고 저탄소 그린 라이프
+                                시대를 선도할 중공업부문과 인간과 자연이 함께 지속가능
+                                한 친환경 주거문화를 구축해나가는 건설부문으로 사업을
+                                이루고 있습니다..</dd>
+                        </dl>
+
+                        <a href="./sub2/sub2_2.html">+더보기</a>
+
+
+                    </div>
+
+                    <div id="tab3" class="business_text">
+
+                        <dl>
+                            <dt>산업자재</dt>
+                            <dd class="company">효성 첨단소재</dd>
+                            <dd>효성첨단소재㈜는 다양한 용도의 산업용 소재를
+                                생산하며, 타이어코드와 자동차 시트벨트용 원사,
+                                에어백 원단 등 세계 시장 점유율 1위 제품으로,
+                                시장을 선도하고 있습니다. 또한 아라미드
+                                탄소섬유 등 최첨단소재 공급을 통해 소재의
+                                미래를 개척해 나가고 있습니다.</dd>
+                        </dl>
+
+                        <a href="./sub2/sub2_3.html">+더보기</a>
+
+
+                    </div>
+
+                    <div id="tab4" class="business_text">
+
+                        <dl>
+                            <dt>화학</dt>
+                            <dd class="company">효성화학</dd>
+                            <dd>효성화학㈜는 아시아와 유럽, 중동 등으로 수출되는 TPA와 국내 최고의
+                                시장점유율을 차지하고 있는 폴리프로필렌(PP)을 비롯해 각종 필름,
+                                블소가스 등 다양한 화학제품을 생산하고 있습니다</dd>
+                        </dl>
+
+                        <a href="./sub2/sub2_4.html">+더보기</a>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div class="management">
+            <h3>"지속가능경영"</h3>
+            <span>더 나은 삶을 가꾸는 일, 효성이 앞장서겠습니다.</span>
+            <ul>
+                <li><img src="./images/management_01.jpg" alt="">
+                    <p>나눔경영</p>
+                </li>
+                <li><img src="./images/management_02.jpg" alt="">
+                    <p>그린경영</p>
+                </li>
+                <li><img src="./images/management_03.jpg" alt="">
+                    <p>윤리경영</p>
+                </li>
+                <li><img src="./images/management_04.jpg" alt="">
+                    <p>지속경영</p>
+                </li>
+            </ul>
+            <a href="./sub3/sub3_1.html">+더보기</a>
+
+
+        </div>
+
+        <div class="reserch">
+            <h3>연구개발</h3>
+            <p>글로벌 최고 수준의 기술로 향상에 노력 하겠습니다.</p>
+
+
+            <div class="reserchphoto">
+                <img src="./images/research_photo.jpg" alt="효성기술원">
+            </div>
+
+
+            <dl>
+                <dt>1.효성기술원</dt>
+                <dd>섬유,중합,전자재료,필름,기능성재료</dd>
+
+
+
+                <dt>2.중공업연구소</dt>
+                <dd>전력기해석,Statcom,Ess,전압기</dd>
+
+
+
+                <dt>3.기술연구소</dt>
+                <dd>ATM개발</dd>
+
+
+
+                <dt>4.강성연구소</dt>
+                <dd>철강재료,친환경,미래 타이어보강재</dd>
+
+
+            </dl>
+
+            <a href="./sub4/sub4_1.html">+더보기</a>
+
+
+
+
+
+        </div>
+
+        <div class="talented">
+            <h3>GLOVAL<br>LEADER</h3>
+
+
+            <ul>
+
+                <li>
+                    <dl>
+                        <dt class="talented_title">최고</dt>
+                        <dd> 글로벌 경쟁력과 최고의 역량을 갖춘 인재</dd>
+                        <dd><img src="./images/icon01.png" alt="최고아이콘"></dd>
+                    </dl>
+                </li>
+
+
+
+                <li>
+                    <dl>
+                        <dt class="talented_title">혁신</dt>
+                        <dd>항상 새로운 시각으로 도전하는 인재</dd>
+                        <dd><img src="./images/icon02.png" alt="혁신아이콘"></dd>
+
+                    </dl>
+                </li>
+
+
+
+                <li>
+                    <dl>
+                        <dt class="talented_title">책임</dt>
+                        <dd>주인의식을 가지고 일하는인재</dd>
+                        <dd><img src="./images/icon03.png" alt="책임아이콘"></dd>
+                    </dl>
+                </li>
+
+
+
+
+                <li>
+                    <dl>
+                        <dt class="talented_title">신뢰</dt>
+                        <dd>동료와 업무에 있어 신뢰를 구축해나가는 인재 </dd>
+                        <dd><img src="./images/icon04.png" alt="신뢰아이콘"></dd>
+                    </dl>
+                </li>
+
+            </ul>
+
+            <a href="./sub5/sub5_1.html">+ 더보기</a>
+
+
+            <a class="magain" href="./sub6/sub6_2.html">+ 더보기</a>
+        </div>
+        <h3 class="magazin">"MAGAZIN"</h3>
+        <div id="slide_gallery_box">
+            <div class="slide_gallery">
+            
+                <ul>
+                    <li class="event1"><a href="#"><img class="event" src="./images/magazin_01.jpg" alt="해피효성 55데이">
+                            <p>[이벤트] 효성그룹 창립 55주년<br>
+                                기념 해피 효성데이 퀴즈</p>
+                        </a></li>
+                    <li class="event1"><a href="#"><img class="event" src="./images/magazin_02.jpg" alt="세빛섬 11월프로모션">
+                            <p>[세빛섬] 다시 우리 함꼐 세빛 11월<br> 프로모션</p>
+                        </a></li>
+                    <li class="event1"><a href="#"><img class="event" src="./images/magazin_03.jpg" alt="훗츠업 무궁무진 아라미드">
+                            <p>[훗츠업] 소방관만 지키는 것이 아니다<br> 무궁무진 아라미드</p>
+                        </a></li>
+                    <li class="event1"><a href="#"><img class="event" src="./images/magazin_04.jpg" alt="효도자료">
+                            <p>[키워드로 보는 효성 보도자료 ‘효도자료’]<br> 연말연시 특집 #2021_효성_사회공헌</p>
+                        </a></li>
+                    <li class="event1"><a href="#"><img class="event" src="./images/magazin_05.jpg" alt="그시절 우리가 좋아했던 간식">
+                            <p>[그 시절 우리가 좋아했던]<br> 군것질(겨울 간식)</p>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="sub_menu_box">
+                <a href="#" class="m1 button"><img src="./images/direction_l.png" alt=""></a>
+                <a href="#" class="m2 button"><img src="./images/direction_r.png" alt=""></a>
+           
+            </div>
+          <link rel="stylesheet" href="./lib/func.php">
+        </div>
+        <? include "./lib/func.php"; ?>
+        <div class="news">
+            <div class="newsinner">
+                <h3>"NEWS"</h3>
+                <span class="subnext">효성 소식을 빠르고, 정확하게 알려드립니다.</span>
+
+                <ul class="news_text">
+                    <!-- <li><a href="#">
+                            <p>효성 티앤씨, 전라남도<br>와 손잡고 페어맘 리사<br>이클 본격화...</p><span>21.11.06</span>
+                        </a></li>
+
+                    <li><a href="#">
+                            <p>친환경 섬유"리젠서울"<br>패션 브랜드 들로부터<br> 잇단 러브콜...</p><span>21.11.01</span>
+                        </a></li>
+
+                    <li><a href="#">
+                            <p>효성 국가 유공자에게<br> AI돌봄 로봇 지원해 약<br>4000만원 가량...</p>
+                        </a><span>21.10.10</span></li>
+
+                    -->
+                    <? latest_article("concert", 4, 18); ?>
+                </ul>
+             
+
+                 <div class="more">
+                   <a  href="./concert/list.php">+더보기</a>
+                </div> 
+
+            </div>
+        </div>
+
+    </article>
+
+    <? include "./common/main_footer.html" ?>
+
+
+
+    <!-- 공지사항 팝업 -->
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;left:100px;top:180px;">
+        <script>
+            function closeWin() {
+                var chk = document.getElementById('Notice')
+                if (chk.checked) {
+                    setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if (getCookie("Notice") == "done") {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="popup/pop.png"
+                alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+        </div>
+        <div style="font-size:12px;text-align:center;color:#666;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은
+                이창을 열지 않음.</label>
+            <a href="#" onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

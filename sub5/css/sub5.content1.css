@@ -1,0 +1,31 @@
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 27px;color:#094f9f;text-align: center;margin-bottom: 260px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR'}
+
+
+.contet_area .peoplemain img{margin-left: 100px;}
+
+.contet_area .peoplemain h3{font-size: 40px; text-align: center;margin: 83px 0 30px 0;}
+.contet_area .peoplemain p{font-size: 20px;width: 875px;line-height: 35px;text-align: justify;margin-left: 153px;}
+.contet_area .peoplemain strong{font-weight: 700;color: #70bce9; font-size: 21px;}
+.contet_area .leader{position: relative;margin-top: 231px;}
+.contet_area .leader h4{font-size: 35px;}
+.contet_area .leader .leder_one{margin-top: 200px; text-align: center; margin-left: 155px;margin-bottom: -200px;}
+.contet_area .leader ul li dt{font-size: 25px;font-size: 31px;font-weight: 500;color: #47c4ff;
+}
+.contet_area .leader ul li:not(:nth-child(1)){transition: all .5s;} 
+.contet_area .leader ul li:not(:nth-child(1)):hover{transform: scale(1.1);}
+.contet_area .leader ul li dd{margin-top: 23px;line-height: 35px;color: #666;}
+.contet_area .leader ul li .baest_of{font-size: 21px;margin-top: 6px;color: #333;}
+.contet_area .leader ul li img{width: 200px;margin-bottom: 54px;}
+.contet_area .leader .center span{font-size: 62px;color: #204c8f;position: absolute; top: 810px;
+    right: 491px;font-weight: 800;}
+.contet_area .leader .bast{margin-right: 638px;width: 300px;}
+.contet_area .leader .inno{position: relative;top: -461px;left: 555px;width: 300px;}
+.contet_area .leader .trust{width: 300px;margin-top: -76px;}
+.contet_area .leader .responsibility{width: 300px;position: relative;top: -451px;left: 583px;}

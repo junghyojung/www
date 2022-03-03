@@ -1,0 +1,46 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;padding-top:102px;}
+#content .line_map{position: absolute;font-size: 16px; right: 15px; top:15px;color: #666}
+#content .line_map strong{color: #666;font-family: sans-serif;}
+#content h2{text-align: center; font-size: 60px;margin-top:30px;margin-bottom:60px;font-family: sans-serif;}
+#content .title_area img{margin: 0 525px 117px;}
+#content .title_area p{font-family: sans-serif;font-size: 20px;color:#094f9f;text-align: center;margin-bottom: 91px;font-weight:400;}
+.contet_area{font-family:'Noto Sans KR';color: #333;}
+
+
+.contet_area .green h3{font-size: 40px; margin-top: 80px;text-align: center;color: #666;}
+.contet_area .oo{height: 500px;width:800px; background: url(../images/content2/green.jpg) 50% 50% no-repeat;
+    margin:0 auto;}
+.contet_area .green .pp{width: 1000px;margin-top: 40px; text-align: justify;font-family:'Noto Sans KR';color: #666;font-family: 'Noto Sans KR'; color: #666;
+    margin-left: 91px;
+    font-size: 20px;
+    line-height: 34px;}
+
+.contet_area .text_box ul .maim_1{width: 2000px;height: 350px;margin-top: 100px;background: url(../images/content2/maim_2.jpg)50% 50% no-repeat;  margin-left: -1000px;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    margin-bottom: 150px;
+}
+.contet_area .text_box h4{font-size: 50px;
+    color: white;
+    opacity: 0.9;
+    margin: 149px 0px 0px 465px;}
+
+.contet_area .text_box dl{width: 400px;margin: 0 auto;}
+.contet_area .text_box dt{font-size: 25px; text-align: center;margin-top: 20px;}
+.contet_area .text_box dd{font-size: 20px;text-align: justify;margin-top: 20px;color: #666;padding-bottom: 40px;line-height: 35px;}
+.contet_area .text_box .co{width: 500px;float: left; margin-left: 106px;}
+.contet_area .text_box .hyosung{width: 500px;float: right;margin-right: 94px;background: #f1f1f1;}
+.contet_area .text_box .plant{width: 500px;float: left; margin-left: 106px;background: #f1f1f1;}
+.contet_area .text_box .sun{width: 500px;float: right;margin-right: 94px;margin-bottom: 142px;}
+.contet_area .text_box .sty{font-size: 30px;color:#5290bd;}
+
+
+ h5{padding-top: 26px; font-size: 35px;margin-bottom: 22px;}
+
+ .contet_area .greenget{clear:both;border-top: 2px solid #ddd;height: 450px;}
+ .contet_area .get{width: 800px;font-size: 20px;color:#4880c5; line-height: 35px;}
+ .contet_area .get_list{padding-top: 10px;color: #666;}

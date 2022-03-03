@@ -1,0 +1,141 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;500;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+*{margin:0;padding:0;}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+  /* font-family: 'Lato', sans-serif;
+font-family: 'Nanum Gothic', sans-serif; font-weight:700;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.wrap{width: 100%; overflow: hidden;}
+/* header 공통영역 */
+
+#headerArea{width: 100%;position:relative; left:0;top: 0;z-index: 100;;background:#fff;
+border-bottom: 1px solid #ccc;}
+
+/* skipNav */
+
+#skipNav{position:relative;width:100%;overflow:hidden;z-index: 110;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+   overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px; font-weight: bold;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+  display:block;height:auto;padding: 5px 0; background:no-repeat scroll 0 0 #fff;}
+  #headerArea{position: fixed;}
+  #headerArea .header_inner{position:relative;width:1200px;padding: 0; margin: 0 auto;background: #fff;height:120px;}
+  
+  #headerArea .top_menu{width:100%;height: 50px; line-height: 50px;overflow: hidden;}
+  #headerArea .top_menu ul{overflow: hidden; position: absolute;top:0;right:34px;font-size:13px;font-family:sans-serif;font-weight:600;color: #666;}
+  #headerArea #gnb .dropdownmenu h3 .depth1{width: 100%;}
+  #headerArea .top_menu .login{float:right;margin-left: 10px;}
+  #headerArea .top_menu .join{float: right;}
+  #headerArea h1 {float: left;margin-top: -10px;}
+  #headerArea h1 a{ display: block; text-indent: -999px;width: 170px;height: 81px;background:url(../images/kologo.png) no-repeat ; overflow:hidden; }
+  #headerArea #gnb {width:1030px; float:right;}
+  #headerArea #gnb .dropdownmenu{ width: 100%;text-align: center;}
+  
+#headerArea #gnb ul.dropdownmenu li:hover a.depth1::before{width: 100%; left: 0%;}
+#headerArea #gnb ul.dropdownmenu li:hover a.depth1{color: #0d64a1;}
+  
+  /* 
+  #headerArea #gnb  ul li{display: inline-block; padding:0 25px;} */
+  #headerArea #gnb .dropdownmenu h3 .depth1 {display: block;font-size: 20px;font-family:'Nanum Gothic'; font-weight:700;
+  color: rgb(51,51,51); padding: 20px 0 28px;} 
+  
+  
+  #gnb{width:1200px;} 
+  #gnb .dropdownmenu{ position: relative; width: 100%; text-align: center;}
+  #gnb ul.dropdownmenu{float:left;width: 100%;}
+  #gnb ul.dropdownmenu li.menu{position:relative;float:left;width:16.6%; } /*width 1/6 나눈고*/
+  
+
+    
+    
+      /* 2depth */
+    #gnb ul.dropdownmenu li ul{width:100%;position:absolute;top:71px; height:240px;padding:15px 0; line-height:2em;display: none; }
+  
+    #gnb ul.dropdownmenu li ul li{ text-align:center; font-weight:bold;padding: 6px 0px;
+    }
+    #gnb ul.dropdownmenu li ul li a{display:block;  color:#666; transition: all .3s; font-family:돋움;}
+    #gnb ul.dropdownmenu li ul li a:hover{color: cornflowerblue;  }
+/* footer 공통영역 */
+
+#footerAera{width: 100%; clear: both ;background:#0d4b85;}
+#footerAera .footer_inner{position:relative;width:1196px;padding:0 50px 50px 187px;box-sizing:border-box;margin: 0 auto;
+font-size: 14px;font-family: sans-serif;font-weight: 400;}
+.footer_inner .f_logo{position:absolute;top:50px;left:0;width:137px; float:left;}
+.footer_inner .footerbox{overflow: hidden;}
+.footer_inner .top{padding-top: 40px;margin-bottom: 15px;}
+.footer_inner .top li {display: inline-block;padding-right:18px;}
+.footer_inner .top li a{color:#fff;display: block;}
+.footer_inner .bottom{color: #fff;}
+.footer_inner address span{padding: 18px 0;display: block;}
+.footer_inner .button{float:right;position: absolute;top:30px;right: 20px;}
+
+
+.family .arrow .account{list-style:none}
+.family{width:169px; height:26px; border:1px solid #fff;
+  position:relative;margin:50px}
+.family .arrow{ display:block; font-size:1.3em;padding-top:1px; text-align: center;color: #fff;}
+.family .arrow:hover{color:#666;list-style:none}
+.family .account{position: absolute;top: -185px;left: -1px;width: 169px;border: 1px solid rgb(0, 0, 0);display: none;
+  background: rgba(0, 0, 0,.8);opacity: 0.9;color: #fff;}
+.family .account li {line-height:1.5em;margin: 7px 0;height: 22px;}
+.family .account li a{display:block;text-align: center;color: #fff;height: 22px;}
+.family .account li a:hover{background: #0d4b85;}
+
+.footer_inner .sns {margin-top: -44px;margin-left: 69px;}
+.footer_inner .sns li{display: inline-block;font-size:20px; margin-left: 10px; margin-top: 10px;
+position: relative;top: 8px;left: 4px;}
+.footer_inner .sns li i{font-size: 25px;color: #fff;}
+.footer_inner .sns span{display: none;}
+
+/*top move*/
+.topMove i{font-size: 50px; color: #0d4b85;;}
+.topMove i{display: block; position: fixed;left: 50%;margin-left: 650px;bottom: 263px;z-index: 50;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
