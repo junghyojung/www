@@ -1,0 +1,13 @@
+#content .summary h2 {padding: 25px 0 10px;text-align: center;font-size: 26px;font-family: 'Nanum Gothic', sans-serif;font-weight: 600;position: relative;}
+#content .summary p{    text-align: center;font-size: 1.2rem;margin-top: 10px;margin-bottom: 31px; color: #2a9bcf;}
+
+.tab_box {margin-bottom: 200px;}
+.tab_box ul {position: relative; width: 80%; margin: 0 auto; }
+#content .history img{width: 100%;}
+#content .history p{font-size: 1.7rem;font-weight: 600;padding-top: 50px;margin-left: 2%;padding-bottom: 2%;}
+#content .history ul{padding-top: 50px;border-top: 2px solid #ddd;}
+#content .history li{}
+#content .history dl{margin-left: 3%;}
+#content .history dt{ color: #3f51b5;font-weight: 600;width: 90px;font-size: 1.2rem;}
+
+#content .history dd{margin-left: 90px;margin-bottom: 20px;position: relative;top: -24px;color: #666; font-size: 1.2rem; line-height: 25px;}

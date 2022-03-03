@@ -1,0 +1,6 @@
+#content .summary h2 {padding: 25px 0 10px;text-align: center;font-size: 26px;font-family: 'Nanum Gothic', sans-serif;font-weight: 600;position: relative;}
+#content .summary p{    text-align: center;font-size: 1.2rem;margin-top: 10px;margin-bottom: 31px; color: #2a9bcf;}
+#content .summary img{width: 100%;}
+#content .summary span{text-align: center;font-size: 1.9rem;font-weight: 700;position: relative;left: 73px;top: 25px;color: #00116e;}
+#content .summary .work{line-height: 31px;text-align: justify; color: #333; width: 85%; margin-top: 49px;margin-left: 31px;font-size: 1.1rem;}
+#content .summary .work strong{font-weight: 600;color: #2c94ff;font-size: 1.225rem;}

@@ -1,0 +1,21 @@
+#content .summary h2 {padding: 25px 0 10px;text-align: center;font-size: 26px;font-family: 'Nanum Gothic', sans-serif;font-weight: 600;position: relative;}
+#content .summary p{    text-align: center;margin-bottom: 59px;font-size: 1.2rem;margin-top: 10px;margin-bottom: 31px; color: #2a9bcf;}
+#content .summary .summary{overflow: hidden;}
+#content .summary dl dt img{width: 50%;margin-left: 15%;}
+
+#content .summary dl{width: 43%;float: left;margin-left: 12px;
+}
+ #content .summary .hyosung_2{float: right; margin-right: 16px;    margin-bottom: 50px;
+ }
+ #content .summary dt{width: 100%;margin-left: 15px;}
+
+
+#content .summary dd{color: #666;margin-top: 12px; margin-left: 11px;line-height: 23px;}
+#content .summary dd span{font-weight: 600;color:#3cb7ff;}
+
+#content .mission{clear: both;margin-bottom: 10%;
+}
+#content .mission img{width: 100%;margin: 0 auto;}
+#content .mission .mission_p1{color: #333;margin-top: 46px; text-align: center;}
+#content .mission .mission_p2{    text-align: justify;line-height: 28px; color: #666;font-size: 1.0rem;width: 85%;margin-left: 6%;}
+ 

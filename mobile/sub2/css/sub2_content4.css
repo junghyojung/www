@@ -1,0 +1,26 @@
+#content{font-family:'Noto Sans KR';}
+#content .summary h2 {padding: 25px 0 10px;text-align: center;font-size: 26px;font-family: 'Nanum Gothic', sans-serif;font-weight: 600;position: relative;}
+#content .summary p{    text-align: center;margin-bottom: 59px;font-size: 1.2rem;margin-top: 10px;margin-bottom: 31px; color: #2a9bcf;}
+#content .main img{width: 90%; margin-left: 5%;text-align: center;}
+#content .main dt{font-size: 1.2rem;margin-top: -18%;color: #fff; font-weight: 600;text-align: center;}
+#content .main dd{    font-size: 1.1rem;line-height: 30px;margin-top: 23%; width: 80%; text-align: justify; margin-left: 6%; margin-bottom: 32px;color: #666;background:#af4ca70d; padding: 4%;}
+#content .main{margin-top: 20px;}
+
+#content .chemical{margin-top: 80px;}
+#content .chemical ul li  img{width: 80%;margin-left: 10%;}
+#content .chemical ul h3{font-size: 20px;font-weight: 600;margin-top: 7%;text-align: center;color:#4393b9;}
+#content .chemical ul dl dt{font-size: 1.2rem;margin-top: 2%;text-align: center;}
+#content .chemical ul dl dd{font-size: 1.1rem;line-height: 30px;margin-top: 5%;width: 90%;text-align: justify;margin-left: 5%;margin-bottom: 32px;color:#666;}
+#content .bottom { border: 1px solid #999999;font-size: 15px;padding: 5px;margin-left: 33%;color: #666;}
+
+#content .pp{margin-top: 10%;margin-bottom: 10%;}
+#content .pp ul li img{width: 90%;}
+#content .pp .compony_box2{position: relative;text-align: justify;width: 80%;padding: 3%;color: #333;}
+#content .pp .compony_box2 h4{font-size: 1.9rem;font-weight: 600;color:#4185bc;}
+#content .pp .compony_box2 h4::before{    content: ""; display: block;width: 8px;height: 16px;background: #0121d4;position: absolute;top: 20px; left: 0px;
+}
+#content .pp .compony_box2 dt{margin-top: 2%;font-size: 1.2rem; font-weight: 600;color: #1c356c;}
+#content .pp .compony_box2 dd{ line-height: 31px;margin-top: 12px;font-size: 15px;color:#666}
+
+#content #tpa{width: 90%;position: relative;right: -19%;}
+#content #tpa .ul li img {width: 90%;}

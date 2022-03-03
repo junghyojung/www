@@ -1,0 +1,27 @@
+#content .summary h2 {padding: 25px 0 10px;text-align: center;font-size: 26px;font-family: 'Nanum Gothic', sans-serif;font-weight: 600;position: relative;}
+#content .summary p{ text-align: center;font-size: 1.2rem;margin-top: 10px;margin-bottom: 31px; color: #2a9bcf;}
+
+
+#content{font-family:'Noto Sans KR';}
+
+#content .Friends h3{text-align: center;font-size:1.6rem;font-weight:600;padding-top: 10%;margin-bottom: 10%;}
+#content .Friends .main{width: 93%; margin-left: 3%;}
+#content .Friends p{text-align: center;font-size: 1.1rem;    color: #2196f3; margin-top: 6%;
+    text-decoration: overline; margin-bottom: 6%;padding-top: 5%;}
+#content .Friends ul{overflow: hidden;margin-top: 10%;}
+#content .Friends li{width: 48%;
+    float: left;margin-left: 2%;margin-top: 5%;}
+#content .Friends li a img{width: 100%;border-radius: 5%;}
+#content .Friends li a{display: block; width: 92%; text-align: center;margin-top: 5%;}
+
+ #content .youtube{margin-top: 10%;margin-bottom: 16%;} 
+ #content .youtube video{width: 100%;}
+ #content .bottom {border: 2px solid #6285ff;font-size: 15px;padding: 9px;color: #2196f3;}
+ #content .bottom2_box {text-align: center; margin-top: 21%;margin-bottom: 10%;}
+ #content .bottom2_box .bottom_2 {border: 2px solid #6285ff;font-size: 15px;padding: 9px;color: #2196f3;
+    position: relative; top: -31px;}
+
+
+
+
+    
